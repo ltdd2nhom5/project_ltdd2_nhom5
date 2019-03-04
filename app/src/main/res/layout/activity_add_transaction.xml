@@ -1,77 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".AddTransactionActivity">
+
     <EditText
+        android:textColor="#13b11b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập số tiền"
+        android:inputType="number" />
 
-        android:inputType="number"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
     <LinearLayout
-        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15px"
+        android:orientation="horizontal">
+
         <ImageView
 
-            android:src="@drawable/mark"
             android:layout_width="100px"
-            android:layout_height="100px" />
+            android:layout_height="100px"
+            android:src="@drawable/mark" />
+
         <Spinner
-            android:layout_weight="5"
             android:layout_width="0dp"
-            android:layout_height="wrap_content">
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:background="@drawable/spinner_background"
+
+            android:entries="@array/nhom_giao_dich_arr">
 
         </Spinner>
     </LinearLayout>
+
     <LinearLayout
-        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15px"
+        android:orientation="horizontal">
+
         <ImageView
 
-            android:src="@drawable/note"
             android:layout_width="100px"
-            android:layout_height="100px" />
-        <Spinner
-            android:layout_weight="5"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content">
+            android:layout_height="100px"
+            android:src="@drawable/note" />
 
-        </Spinner>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập ghi chú" />
     </LinearLayout>
+
     <LinearLayout
-        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15px"
+        android:orientation="horizontal">
+
         <ImageView
 
-            android:src="@drawable/calenda"
             android:layout_width="100px"
-            android:layout_height="100px" />
-        <Spinner
-            android:layout_weight="5"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content">
+            android:layout_height="100px"
+            android:src="@drawable/calenda" />
 
-        </Spinner>
+        <TextView
+            android:id="@+id/txtChonNgay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Chọn ngày" />
     </LinearLayout>
+
     <LinearLayout
-        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15px"
+        android:orientation="horizontal">
+
         <ImageView
 
-            android:src="@drawable/vi"
             android:layout_width="100px"
-            android:layout_height="100px" />
+            android:layout_height="100px"
+            android:src="@drawable/vi" />
+
         <Spinner
-            android:layout_weight="5"
             android:layout_width="0dp"
-            android:layout_height="wrap_content">
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:background="@drawable/spinner_background"
+            android:entries="@array/wallet_arr">
 
         </Spinner>
     </LinearLayout>

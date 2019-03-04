@@ -2,10 +2,10 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <item android:icon="@drawable/edit"
+    <item android:icon="@drawable/vi"
         android:title="Edit"
         app:showAsAction="always"></item>
-    <item android:icon="@drawable/delete"
+    <item android:icon="@drawable/vi"
         android:title="Delete"
         app:showAsAction="always"></item>
 

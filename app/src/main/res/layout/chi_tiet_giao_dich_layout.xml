@@ -16,7 +16,7 @@
 
         <ImageView
             android:id="@+id/imgChiTieu"
-            android:background="@drawable/drink"
+            android:background="@drawable/vi"
             android:layout_width="100dp"
             android:layout_height="100dp"
             />
@@ -54,7 +54,7 @@
 
         <ImageView
             android:id="@+id/imgDate"
-            android:background="@drawable/date"
+            android:background="@drawable/vi"
             android:layout_width="100dp"
             android:layout_height="100dp"
             />
@@ -76,7 +76,7 @@
 
         <ImageView
             android:id="@+id/imgMoney"
-            android:background="@drawable/money"
+            android:background="@drawable/vi"
             android:layout_width="100dp"
             android:layout_height="100dp"
             />
