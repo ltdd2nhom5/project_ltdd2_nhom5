@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">project_ltdd2_nhom5</string>
+    <string name="DCSD_Title">Điều Chỉnh Số Dư</string>
     <string-array name="nhom_giao_dich_arr">
         <item>--Hãy chọn nhóm giao dịch--</item>
         <item>Ăn uống</item>
@@ -13,4 +14,20 @@
         <item>Ví tiền ăn uống(100.000 VND)</item>
         <item>Ví tiền mua sắm(500.000 VND)</item>
     </string-array>
+
+    <string-array name="momey_arr">
+        <item>500.000 VND</item>
+        <item>1.000.000 VND</item>
+        <item>1.500.000 VND</item>
+        <item>2.000.000 VND</item>
+        <item>2.500.000 VND</item>
+        <item>3.000.000 VND</item>
+        <item>3.500.000 VND</item>
+        <item>4.000.000 VND</item>
+        <item>4.500.000 VND</item>
+        <item>5.000.000 VND</item>
+    </string-array>
+
+    <string name="textOn">Đúng</string>
+    <string name="textOff">Sai</string>
 </resources>
