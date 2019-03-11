@@ -9,14 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AddTransactionActivity">
+        <activity android:name=".DieuChinhSoDu">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ChiTietGiaoDichActivity"></activity>
+        <activity android:name=".ChiTietGiaoDichActivity" />
+        <activity android:name=".ChiTietChiTieuThangActivity"></activity>
     </application>
 
 </manifest>
