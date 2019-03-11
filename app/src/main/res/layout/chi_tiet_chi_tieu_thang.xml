@@ -5,12 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:layout_margin="8dp"
     tools:context=".ChiTietChiTieuThangActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:orientation="vertical"
+        android:gravity="center"
         android:layout_weight="2">
 
         <LinearLayout
@@ -57,6 +59,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:orientation="vertical"
+        android:gravity="center"
         android:layout_weight="2">
 
         <LinearLayout
@@ -94,6 +97,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:orientation="vertical"
+        android:gravity="center"
         android:layout_weight="1">
 
         <LinearLayout
@@ -116,6 +120,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:orientation="vertical"
+        android:gravity="center"
         android:layout_weight="4">
 
         <TextView
@@ -134,19 +139,20 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:gravity="center"
                 android:orientation="horizontal">
 
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/vi"/>
+                    android:src="@drawable/car"/>
 
                 <TextView
                     android:gravity="center"
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:text="Di chuyển"/>
-                
+
                 <TextView
                     android:gravity="right"
                     android:layout_width="match_parent"
@@ -162,6 +168,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:orientation="vertical"
+        android:gravity="center"
         android:layout_weight="4">
 
         <TextView
@@ -176,6 +183,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:gravity="center"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -198,4 +206,5 @@
 
         </LinearLayout>
     </LinearLayout>
+
 </LinearLayout>
